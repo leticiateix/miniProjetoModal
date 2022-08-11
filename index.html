@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="inicio">
+        <div> <a data-modal="abrir" class="entrar"> LOGIN</a></div>
+    </nav>
+    <section>
+        <img src="./Imagens/foto-stranger.jpg" alt="">
+    </section>
+    <section class="modal-container" data-modal="container">
+        <div class="modal">
+            <button data-modal="fechar" class="fechar"> X </button>
+            <form action="">
+                <label for="email">E-mail</label>
+                <input type="text" for="email" id="email">
+                <label for="senha">Senha</label>
+                <input type="password" for="senha" id="senha">
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
